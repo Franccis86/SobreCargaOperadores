@@ -2,6 +2,7 @@
 #include "Librerias/Utils.h"
 #include "Librerias/SobreCargaOperadores.hpp"
 int main() {
+    int dios=1000;
     ifstream input;apertura_archivo_entrada(input,"../Archivos/Clientes.csv");
     struct Cliente clientes[200];
     int i=0;
